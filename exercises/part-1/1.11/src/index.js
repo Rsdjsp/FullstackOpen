@@ -23,7 +23,7 @@ const App = () => {
   average = average.toFixed(2);
   let positive = good / 3;
   positive = positive.toFixed(2);
-
+  
   return (
     <div>
       <h1 className="title">Give feedback</h1>
@@ -35,7 +35,6 @@ const App = () => {
         />
       </div>
       <h3>{sum === 0 ? "No feedback given" : ""}</h3>
-
       {sum > 0 && (
         <div className="statistics">
           <Statistics text="good" value={good} />
