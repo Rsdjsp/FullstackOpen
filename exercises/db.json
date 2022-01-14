@@ -18,5 +18,22 @@
       "date": "2019-05-30T19:20:14.298Z",
       "important": true
     }
+  ],
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": 1
+    },
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": 2
+    },
+    {
+      "name": "Dan Abramov",
+      "number": "234234234",
+      "id": 3
+    }
   ]
 }
